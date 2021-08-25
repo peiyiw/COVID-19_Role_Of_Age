@@ -1,4 +1,4 @@
-# COVID-19_Role_of_age
+# COVID-19_Role_Of_Age
 Code for: How asymptomatic SARS CoV-2 infection varies by demographics   
 
 ## Citation

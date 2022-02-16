@@ -1,6 +1,6 @@
 # COVID-19_Role_Of_Age
 
-Code for: Asymptomatic SARS-CoV-2 infection and the demography of COVID-19  
+Code for: Asymptomatic SARS-CoV-2 infection and the demography of COVID-19
 
 ## Citation
 
@@ -10,7 +10,7 @@ Zengmiao Wang, Peiyi Wu, Jingyuan Wang, José Lourenço, Bingying Li, Benjamin R
 
 ## Abstract
 
-Asymptomatic individuals carrying SARS-CoV-2 can transmit the virus and contribute to outbreaks of COVID-19, but it is not yet clear how the proportion of asymptomatic infections varies by age and geographic location. Here we use detailed surveillance data gathered during COVID-19 resurgences in six cities of China at the beginning of 2021 to investigate this question. Data were collected by multiple rounds of city-wide PCR test with detailed contact tracing, where each patient was monitored for symptoms through the whole course of infection. We find that the proportion of asymptomatic infections declines with age (coefficient =-0.006, P<0.01), falling from 56% in age group 0–9 years to 12% in age group >60 years. Using an age-stratified compartment model, we show that this age-dependent asymptomatic pattern together with the age distribution of overall cases can explain most of the geographic differences in reported asymptomatic proportions. Combined with demography and contact matrices from other countries worldwide, we estimate that a maximum of 22%–55% of SARS-CoV-2 infections would come from asymptomatic cases in an uncontrolled epidemic based on asymptomatic proportions in China. Our analysis suggests that flare-ups of COVID-19 are likely if only adults are vaccinated and that surveillance and possibly control measures among children will be still needed in the future to contain epidemic resurgence.
+Asymptomatic individuals carrying SARS-CoV-2 can transmit the virus and contribute to outbreaks of COVID-19, but it is not yet clear how the proportion of asymptomatic infections varies by age and geographic location. Here we use detailed surveillance data gathered during COVID-19 resurgences in six cities of China at the beginning of 2021 to investigate this question. Data were collected by multiple rounds of city-wide PCR test with detailed contact tracing, where each patient was monitored for symptoms through the whole course of infection. We find that the proportion of infections that is asymptomatic declines with age (coefficient=-0.006, 95% CI: -0.008–-0.003, P<0.01), falling from 42% (95% CI: 6%–78%) in age group 0–9 years to 11% (95% CI: 0%–25%) in age group >60 years. Using an age-stratified compartment model, we show that this age-dependent asymptomatic pattern, together with the distribution of cases by age, can explain most of the reported variation in asymptomatic proportions among cities. Through simulations integrating asymptomatic infection data from our study and others, we demonstrate that asymptomatic individuals play an important role in COVID-19 transmission, before and after mass vaccination. With growing numbers of people being vaccinated, we expect a higher proportion of infections to be transmitted by asymptomatic individuals. Active surveillance among children and vaccinated people would be still needed in the future to monitor epidemic trajectory.
 
 ## Notes on the code
 

@@ -40,9 +40,9 @@ params1 = {
 	%parameter
 	%name,mean,min.max,mean,std
     {'beta',par.initial(xdata.index,1),0,1,0,Inf}  %transmission rate
-    {'theta',par.initial(xdata.index,2),0,1,0,Inf} %tracing and testing rate
-	{'HL0',par.initial(xdata.index,3),par.HL0(xdata.index,1),par.HL0(xdata.index,2),0,Inf}
-	{'HIa0',par.initial(xdata.index,4),par.HIa0(xdata.index,1),par.HIa0(xdata.index,2),0,Inf}
+    {'theta',par.initial(xdata.index,2),0,1,0,Inf} %proportion of infection will exit
+    {'HL0',par.initial(xdata.index,3),par.HL0(xdata.index,1),par.HL0(xdata.index,2),0,Inf}
+    {'HIa0',par.initial(xdata.index,4),par.HIa0(xdata.index,1),par.HIa0(xdata.index,2),0,Inf}
     {'HLp0',par.initial(xdata.index,5),par.HLp0(xdata.index,1),par.HLp0(xdata.index,2),0,Inf}
     {'HIs0',par.initial(xdata.index,6),par.HIs0(xdata.index,1),par.HIs0(xdata.index,2),0,Inf}
     {'p1', ap_real(7,1), ext(6+xdata.index,1), ext(xdata.index,1),0,Inf}

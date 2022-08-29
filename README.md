@@ -23,7 +23,7 @@ Keywords: Asymptomatic infection; Age; Geographic location; Age-stratified compa
 
 ## Notes on the code
 
-To run, you need a Matlab toolbox called "DRAM": DRAM is a combination of two ideas for improving the efficiency of Metropolis-Hastings type Markov chain Monte Carlo (MCMC) algorithms, Delayed Rejection and Adaptive Metropolis. This page explains the basic ideas behind DRAM and provides examples and Matlab code for the computations.(see http://helios.fmi.fi/~lainema/dram/)
+To run, you need a Matlab toolbox called "mcmcstat" available from https://mjlaine.github.io/mcmcstat/. It implements DRAM algorithm, which is a combination of two ideas for improving the efficiency of Metropolis-Hastings type Markov chain Monte Carlo (MCMC) algorithms, Delayed Rejection and Adaptive Metropolis. The mcmcstat toolbox documentation can be found at https://mjlaine.github.io/mcmcstat/.
 
 About code folder: We used ”Fitting” folder to estimate the parameters for six cities (Shijiazhuang and Xingtai from Hebei province, Changchun and Tonghua from Jilin province, Harbin and Suihua from Heilongjiang province) in China respectively and “Simulation” folder to perform simulations evaluating the effect of initial values, contact matrix and age-structure on the reported asymptomatic proportion. The setting of the fixed parameters for each city and the meaning of each scenario can be found in the main text and supplemented material.
 
